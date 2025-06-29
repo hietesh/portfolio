@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Home, Layers, MessageSquareCode, PanelsTopLeft, User } from "lucide-react";
+import { BriefcaseBusiness, Home, Layers, MessageSquareCode, User } from "lucide-react";
 import type { nav_item } from "../types/nav-item";
 
 export const NAV_ITEMS : nav_item[] = [
