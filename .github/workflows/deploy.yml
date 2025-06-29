@@ -25,7 +25,7 @@ jobs:
 
       - name: Build
         env:
-          VITE_EMAIL_ACCESS_KEY: ${{ vars.VITE_EMAIL_ACCESS_KEY }}
+          VITE_EMAIL_ACCESS_KEY: ${{ secrets.VITE_EMAIL_ACCESS_KEY }}
         run: npm run build
 
       - name: Deploy
