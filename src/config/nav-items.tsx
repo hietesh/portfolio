@@ -14,7 +14,7 @@ export const NAV_ITEMS : nav_item[] = [
     },
     {
         name : 'Services',
-        icon : BriefcaseBusiness,
+        icon : BriefcaseBusiness,   
         id : 'services'
     },
     {
