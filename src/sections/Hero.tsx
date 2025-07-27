@@ -2,11 +2,18 @@ import avatar from '../assets/avatar-1.svg';
 import TypeWriter from '../components/TypeWriter';
 import { DESIGNATIONS } from '../config/designation-text';
 import { SOCIAL_LINKS } from '../config/social-links';
+import { useDVH } from '../hooks/useDVH';
 import type { nav_item } from '../types/nav-item';
 
+
 const Hero = () => {
+  const height : string = useDVH();
+  
   return (
-    <section id='home' className="relative h-screen text-center  bg-primary border-l-1 border-gray-100">
+    <section id='home' 
+      className="relative text-center  bg-primary border-l-1 border-gray-100"
+      style={{ height }}
+    >
         <div className='flex gap-3 flex-col items-center justify-center h-[inherit]'>
           <figure>
             <img 
