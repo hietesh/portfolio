@@ -19,7 +19,7 @@ const About = () => {
             <div className='bg-white shadow-xl p-8 rounded-2xl flex flex-wrap items-center gap-8 flex-1'>
               <div className='flex-[1_0_50%]'>
                 <p className='text-pretty'>I am Hitesh Pagare, frontend developer from Mumbai, India. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
-                <a href={resume} download='Resumes' className='btn mt-6'>Download Resume</a>
+                <a href={resume} target='_blank' className='btn mt-6'>Download Resume</a>
               </div>  
               <div className='flex-[1_0_auto] space-y-4'>
                   {
