@@ -31,7 +31,7 @@ const TypeWriter = ( { texts = [] } : TypeWriterProps)=> {
 
         return () => clearTimeout(timer);
 
-    },[textIndex,currentIndex]);
+    },[textIndex,currentIndex,texts]);
 
     return (
         <span>

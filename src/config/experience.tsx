@@ -11,10 +11,12 @@ export const EXPERIENCE_ITEMS : experience_item[] = [
             end : 'Present'
         },
         description : [ 
-            'Migrated 2 existing Fintech Projects from vue-bootstrap to VUETIFY to overcome the vulnerablity reported by the SYNK security scans.',
-            'Developed an internally used Component UI Library and hosted it on the private GITHUB PACKAGES, to be used in future projects instead of relying on the third party library.',
-            'Developing a B2B Agent Portal which utilises internal component library, which provide payment utility interface to the small & mid size business for transactions.',
-            'Migrating the current JSP, jQuery, Ajax based portal to Modern Vue & Typescript Components using Composition API with script setup based syntax.'
+            'Developed an internally used Component UI Library (GO-UI) and hosted it on the private GITHUB PACKAGES, to be used in future projects instead of relying on the external UI library.',
+            'Migrating the legacy JSP, jQuery, Ajax based portal to Modern Vue and Typescript Components using Composition API with script setup based syntax.',
+            'Collaborated with product managers, designers and backend engineers to deliver payment and transaction management workflows for small and medium-sized businesses for a b2b Agent Portal.',
+            'Designed centralized application state management using PINIA and JWT based session authentication.',
+            'Reduced redundant API requests through client side caching and state persistence , improving application responsiveness and reducing backend load.',
+            'Migrated two production fintech applications from Vue Bootstrap to Vuetify to address security vulenerablities indentified through Synk scans while improving UI maintainablity and long term support.'
         ]
     },
     {
@@ -26,9 +28,11 @@ export const EXPERIENCE_ITEMS : experience_item[] = [
             end : 'Oct 2023'
         },
         description : [
-            'Worked on the talent side of the portal where we showcase the relevant JOBS openings according to the profile assesment done.',
-            'Whole journey of the talent is maintained in the portal from initial screening to the deployment of the talent to the client.',  
-            'Developed various responsive landing pages in the portal to generate leads of talent as well the client who is looking for a talent for thier businness.'
+            'Conversion of designs in (FIGMA / Adobe Illustrator) to responsive web pages using BEM Methodology using SCSS',
+            'Collaborated with backend teams to integrate REST APIs, handle authentication workflows and implement scalable frontend data flows.',  
+            'Developed features across the candidate lifecycle. from initial screening through deployment & engagement management.',
+            'Developed / maintained / revamped multiple responsive landing pages which contributed to lead generation across talent acquisition and client acquisition which contributed to 15k - 20k monthly visits.',
+            'Optimised the Web Vitals of the pages with a score of 90+ in LCP, INP, CLS for a improving user experience and search visiblity'
         ]
     },
     {
@@ -40,7 +44,7 @@ export const EXPERIENCE_ITEMS : experience_item[] = [
             end : 'Dec 2021'
         },
         description : [
-            'Developing the front end of e-learning courses using HTML, CSS ,JS & storyline articulate and other properitory tools.'
+            'Developed e-learning courses using html, css, javascript and storyline articulate and other properitory tools.'
         ]
     }
 ]
